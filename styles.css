@@ -44,3 +44,46 @@
     align-items: center;
     font-size: 30;
 }
+
+.container2 {
+    margin-top: 1000px;
+    background-color: rgba(212, 212, 215, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1920px;
+    height: 850px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hot-deal-photo {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Instagram{
+    padding: 78px;
+    width: 1800px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.ins-photo{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deal{justify-content: center;
+    align-items: center;
+    background-image: url('Rectangle\ 9.png');
+    padding: 100px;
+    width: 1800px;
+    margin-top: 150px;
+    text-align: center;
+}
