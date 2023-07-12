@@ -1,6 +1,5 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 10px;
 }
 
 /* banner css styles */
@@ -38,25 +37,87 @@
 
 .btn {
     width: 100px;
-    height: 30px;
+    height: 45px;
     background-color: #E55473;
     border-radius: 10px;
     align-items: center;
     font-size: 30;
+    cursor: pointer;
 }
 
+section {
+  width: 100%;
+
+}
+.heading {
+  width: 50%;
+  margin: 20px 0;
+  text-align: center;
+  margin: auto;
+}
+.first-row {
+  display: flex;
+  margin: 20px 20px;
+  justify-content: space-between;
+  height: 100%;
+}
+.first-row .col {
+  width: 30%;
+}
+.first-row .col .image-card {
+  width: 100%;
+  height: 470px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.first-image {
+  background-color: pink;
+}
+.second-image {
+  background-color: skyblue;
+}
+.third-image {
+  background-color: aliceblue;
+}
+.first-row .col .link a {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin: 20px 0;
+}
+
+.second-row {
+  /* width: 95%; */
+  display: flex;
+  background-color: #a7a9aa;
+  margin: 20px 20px;
+}
+.second-row .col {
+  width: 33.33%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .container2 {
-    margin-top: 1000px;
+    margin-top: 25px;
     background-color: rgba(212, 212, 215, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1920px;
     height: 850px;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
-
 .hot-deal-photo {
     justify-content: space-around;
     align-items: center;
@@ -65,7 +126,7 @@
 .Instagram{
     padding: 78px;
     width: 1800px;
-    margin-top: 150px;
+    margin-top: 25px;
     text-align: center;
 }
 
@@ -79,11 +140,48 @@ img{
     align-items: center;
 }
 
-.deal{justify-content: center;
-    align-items: center;
-    background-image: url('Rectangle\ 9.png');
-    padding: 100px;
-    width: 1800px;
-    margin-top: 150px;
+.container3{
+   
+    background-image: url('./Rectangle\ 9.png');
+    background-repeat: no-repeat;
     text-align: center;
+    margin: 20px 180px;
+   
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+
 }
+.input{
+    margin-top: 20px;
+width: 500px;
+height: 28px;
+justify-content: space-between;
+}
+
+.btn1{
+    width: 100px;
+    height: 45px;
+    background-color: #E55473;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 40;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.footer-section{
+    background-color: black;
+    height: 200px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin:  20px;
+    padding: 50px;
+
+}
+span{
+    color: #E55473;
+}
+
